@@ -33,7 +33,7 @@ Ensure you have `git` and `python3` installed.
 git clone https://github.com/u-damien/p-entropizer.git
 cd p-entropizer
 pip install -r requirements.txt
-python3 pentropizer.py -h
+python pentropizer.py -h
 ```
 
 ## Usage
