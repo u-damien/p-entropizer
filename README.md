@@ -33,7 +33,7 @@ Ensure you have `git` and `python3` installed.
 git clone https://github.com/u-damien/p-entropizer.git
 cd p-entropizer
 pip install -r requirements.txt
-python pentropizer.py -h
+python3 pentropizer.py -h
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ python pentropizer.py -h
 You can run the script directly with a password argument and an optional hash rate:
 
 ```bash
-python pentropizer.py "your_password" -r 5000000
+python3 pentropizer.py "your_password" -r 5000000
 ```
 
 - `your_password`:  The password you want to analyze.
@@ -51,7 +51,7 @@ python pentropizer.py "your_password" -r 5000000
 If no password is provided as an argument, the script will prompt you to enter one interactively.
 
 ```bash
-python pentropizer.py
+python3 pentropizer.py
 ```
 
 ## Example Output
