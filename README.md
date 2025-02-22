@@ -1,6 +1,6 @@
-# P-Entropizer
+<h1 align="center"> P-Entropizer</h1>
 
-P-Entropizer is a Python-based tool for analyzing password entropy and estimating the time required to crack it using brute-force methods. It provides a detailed evaluation of password strength based on character complexity and entropy calculations.
+<p align="center">P-Entropizer is a Python-based tool for analyzing password entropy and estimating the time required to crack it using brute-force methods. It provides a detailed evaluation of password strength based on character complexity and entropy calculations.</p>
 
 ## Mathematical Formulae
 
