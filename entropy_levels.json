@@ -1,0 +1,56 @@
+[
+  {
+    "threshold": 28,
+    "level": "Unacceptable",
+    "color": "RED",
+    "usage": "Not recommended for any secure authentication or data protection."
+  },
+  {
+    "threshold": 35,
+    "level": "Very Weak",
+    "color": "LIGHTRED_EX",
+    "usage": "Suitable only for non-critical, disposable accounts."
+  },
+  {
+    "threshold": 45,
+    "level": "Weak",
+    "color": "YELLOW",
+    "usage": "May be acceptable for temporary accounts with minimal risk."
+  },
+  {
+    "threshold": 60,
+    "level": "Moderate",
+    "color": "LIGHTYELLOW_EX",
+    "usage": "Appropriate for low-risk environments; not for sensitive information."
+  },
+  {
+    "threshold": 80,
+    "level": "Adequate",
+    "color": "CYAN",
+    "usage": "Suitable for standard online services with moderate security requirements."
+  },
+  {
+    "threshold": 100,
+    "level": "Strong",
+    "color": "GREEN",
+    "usage": "Recommended for general-purpose accounts, such as email and social media."
+  },
+  {
+    "threshold": 120,
+    "level": "Very Strong",
+    "color": "LIGHTGREEN_EX",
+    "usage": "Appropriate for online banking and protecting critical personal data."
+  },
+  {
+    "threshold": 140,
+    "level": "Highly Secure",
+    "color": "BLUE",
+    "usage": "Suitable for protecting sensitive business or proprietary information."
+  },
+  {
+    "threshold": 160,
+    "level": "Extremely Secure",
+    "color": "MAGENTA",
+    "usage": "Recommended for high-security environments and enterprise-level systems."
+  }
+]
