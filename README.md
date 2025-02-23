@@ -82,5 +82,33 @@ We use bandit, you could use it like that :
 bandit . -r --exclude "./.dev,./.venv"
 ```
 
+### Github action
+
+Github action can be used to automate tasks, in order to develop github 
+actions we should create yaml files in `.github/workflows`.
+
+To test workflows before pushing to github we could use `act`.
+
+#### 1 - Install act
+
+*Note that to run act you should have docker installed.*
+
+On macOS (using Homebrew) :
+```sh
+brew install act
+```
+
+On Linux :
+```sh
+curl -sSL https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash
+```
+
+On Windows (using Scoop) :
+```sh
+scoop install act
+```
+
+
+
 ## License
 This project is licensed under the MIT License.
