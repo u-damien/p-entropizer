@@ -61,5 +61,24 @@ python3 pentropizer.py
 - This tool does **not** consider password dictionaries or known weak passwords.
 - The time-to-crack estimate assumes pure brute-force attacks without optimizations.
 
+## Development
+
+To develop this project we use a venv for testing with a dedicated 
+requirements.txt called dev.txt, it embed lynting and security tool.
+
+### Testing linting (Quality)
+
+We use pylint, you could use it like that :
+```sh
+pylint pentropizer.py src/*.py src/tools/*.py
+```
+
+### Security testing
+
+We use bandit, you could use it like that :
+```sh
+bandit . -r --exclude "./.dev,./.venv"
+```
+
 ## License
 This project is licensed under the MIT License.
