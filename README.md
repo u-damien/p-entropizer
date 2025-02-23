@@ -73,6 +73,8 @@ We use pylint, you could use it like that :
 pylint pentropizer.py src/*.py src/tools/*.py
 ```
 
+As pylint will check import, make sure the file `.pylintrc` is well configured.
+
 ### Security testing
 
 We use bandit, you could use it like that :
