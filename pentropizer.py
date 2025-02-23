@@ -1,10 +1,10 @@
 #!venv/bin/python
 """
 Filename    : pentropizer.py
-Porject     : P-Entropizer
-Description : Main module for P-Entropizer, this tool provide an analyzer for
-            password entropy and estimate the time required to crack it using
-            brute-force methods
+Project     : P-Entropizer
+Description : Main module for P-Entropizer, this tool provides an analyzer for
+            password entropy and estimates the time required to crack it using
+            traditionnal brute-force methods
 """
 
 import sys
