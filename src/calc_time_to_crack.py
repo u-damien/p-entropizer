@@ -25,7 +25,7 @@ def __print_result(result) -> None:
         f"{Fore.MAGENTA}{result}.\n{Fore.BLUE}[~]{Fore.LIGHTBLUE_EX} " +
         f"Human readable: {Fore.MAGENTA}" +
         f"{human_result if human_result else 'Instantly'}." +
-        f"{Fore.BLUE}[~]{Fore.MAGENTA} {times_universe}"
+        f"{Fore.BLUE}\n[~]{Fore.MAGENTA} {times_universe}"
     )
 
 def __calculate_for_default_consumer_grade_hardware(entropy: float) -> None:
